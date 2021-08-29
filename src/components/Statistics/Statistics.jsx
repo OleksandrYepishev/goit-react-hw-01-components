@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 import { getRandomColor } from '../../Utils/getRandomColor';
-console.log(getRandomColor());
+
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
