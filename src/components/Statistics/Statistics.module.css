@@ -1,0 +1,32 @@
+.statistics {
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.statList {
+  margin: 5px;
+  list-style: none;
+  display: flex;
+}
+
+.label {
+  justify-content: center;
+  font-size: 15px;
+  display: flex;
+  margin: 15px;
+}
+
+.percentage {
+  font-size: 25px;
+  font-weight: 600;
+  display: inherit;
+  margin: 15px;
+}
